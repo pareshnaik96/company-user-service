@@ -1,0 +1,27 @@
+{
+  "name": "company-user-service",
+  "version": "1.0.0",
+  "description": "company and user management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pareshnaik96/company-user-service.git"
+  },
+  "author": "Paresh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pareshnaik96/company-user-service/issues"
+  },
+  "homepage": "https://github.com/pareshnaik96/company-user-service#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
